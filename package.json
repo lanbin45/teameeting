@@ -1,0 +1,52 @@
+{
+  "name": "teameeting",
+  "version": "0.0.1",
+  "description": "teameeting前端页面",
+  "productName": "teameeting",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "lanbing45 <lanbin_blue@163.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "dateformat": "^3.0.3",
+    "element-ui": "^2.6.1",
+    "js-base64": "^2.5.1",
+    "md5": "^2.2.1",
+    "qrcode": "^1.3.3",
+    "socket.io-client": "^2.2.0",
+    "vue": "^2.6.9",
+    "vue-meta": "^1.5.8",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.3.0",
+    "quasar-cli": "^0.17.0",
+    "strip-ansi": "=3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
